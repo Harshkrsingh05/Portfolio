@@ -197,5 +197,5 @@ h1.project-heading {
   color: white;
 }
 *, ::after, ::before {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
