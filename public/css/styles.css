@@ -57,10 +57,10 @@ section{
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  width: 60vw;
-  height: 145vh;
+  width: 67vw;
+  height: 165vh;
   flex-direction: column;
-  color: white;
+  color: rgb(255 200 53);
 }
 h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -156,10 +156,10 @@ ul.dynamic-txts {
 .infoImageAbout{
   position: absolute;
   background-color: transparent;
-  width: 40vw;
-  height: 50vh;
+  width: 38vw;
+  height: 38vh;
   right: 5px;
-  bottom: 2px;
+  bottom: -100px;
 }
 .infoimgabout{
   height: 100%;
@@ -195,4 +195,7 @@ h1.project-heading {
 .Footer_container{
   /* background-color: Black; */
   color: white;
+}
+*, ::after, ::before {
+  box-sizing: content-box;
 }
