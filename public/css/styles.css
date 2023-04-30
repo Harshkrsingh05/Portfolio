@@ -70,13 +70,13 @@ h1 {
   color: aquamarine;
 }
 .infoSkills{
-  display: flex;
+/*   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: transparent;
-  width: 50vw;
+/*   width: 50vw;
   height: 80vh;
-  flex-direction: column;
+  flex-direction: column; */
   color: white;
 }
 .info .wrapper {
