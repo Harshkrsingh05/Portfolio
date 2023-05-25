@@ -41,6 +41,7 @@ section{
 .heading{
   text-align: center;
   margin-bottom: 5px;
+  font-family: 'Courier New', Courier, monospace; 
 }
 .info{
   display: flex;
@@ -51,17 +52,20 @@ section{
   height: 80vh;
   flex-direction: column;
   color: white;
+  font-family: 'Courier New', Courier, monospace; 
 }
 .infoAbout{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
   width: 67vw;
-  height: 165vh;
-  flex-direction: column;
+  height: 165vh; */
+  /* flex-direction: column; */
   color: rgb(255 200 53);
+  font-family: monospace;
 }
+
 h1 {
   font-size: calc(1.375rem + 1.5vw);
   color: antiquewhite;
@@ -70,13 +74,14 @@ h1 {
   color: aquamarine;
 }
 .infoSkills{
-/*   display: flex;
+  font-family: 'Courier New', Courier, monospace; 
+  /* display: flex;
   align-items: center;
   justify-content: center; */
   background-color: transparent;
-/*   width: 50vw;
-  height: 80vh;
-  flex-direction: column; */
+  /* width: 50vw;
+  height: 80vh; */
+  /* flex-direction: column; */
   color: white;
 }
 .info .wrapper {
@@ -174,6 +179,7 @@ ul.dynamic-txts {
   background-color: transparent;
   text-align: center;
   width:70vw;
+  font-family: 'Courier New', Courier, monospace; 
 }
 h1.project-heading {
   margin: 0 0 10px 30px;
