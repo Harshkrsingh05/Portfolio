@@ -52,7 +52,7 @@ section{
   height: 80vh;
   flex-direction: column;
   color: white;
-  font-family: 'Courier New', Courier, monospace; 
+  /* font-family: 'Courier New', Courier, monospace;  */
 }
 .infoAbout{
   /* display: flex;
@@ -197,6 +197,7 @@ h1.project-heading {
 .Bottom_container{
   text-align: center;
   color: white;
+  font-family: 'Courier New', Courier, monospace; 
 }
 .Footer_container{
   /* background-color: Black; */
